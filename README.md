@@ -20,3 +20,20 @@ InfoGatherer is a Python-based information-gathering tool designed to perform va
    ```bash
    git clone https://github.com/yourusername/InfoGatherer.git
    cd InfoGatherer
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Usage
+Run the tool with the following command:
+   ```bash
+   python3 info_gathering.py -d <target_domain> [options]
+   
+   Option	Description
+   -d	Specify the target domain (required).
+   -o	Save scan results to an output file.
+   -v	Enable verbose output (detailed logging).
+   -h or --help	Display usage instructions.
+
+
