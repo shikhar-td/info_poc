@@ -25,7 +25,7 @@ InfoGatherer is a Python-based information-gathering tool designed to perform va
    ```bash
    pip install -r requirements.txt
 
-## Installation
+## Usage
 Run the tool with the following command:
    ```bash
    python3 info_gathering.py -d <target_domain> [options]
